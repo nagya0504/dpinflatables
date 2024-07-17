@@ -1,0 +1,80 @@
+body {
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(31, 4, 43,1) 0%, rgba(145, 18, 201,1) 100%);
+}
+
+.header {
+    background-color: rgb(66, 8, 92);
+    padding: 15px 24%;
+}
+
+.navbar {
+    background-color: rgb(92, 11, 128);
+    color: 227, 227, 227;
+    font-size: 20px;
+}
+
+.main-content {
+    background: rgb(255,255,255,0.75);
+    border-radius: 30px;
+    /* background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); */
+    margin-top: 25px;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 30px;
+    color: #0b1b4e;
+}
+
+.p-1 {
+    color: #2D2A32;
+    margin-top: 30px;
+}
+
+#carousel {
+    max-width: 50%;
+    margin: 30px auto;
+}
+
+.advert-img {
+    max-height: 350px;
+    margin: 10px 20%;
+    padding: auto;
+    transition: 1s;
+}
+
+.advert-img:hover {
+    max-height: 425px;
+    transition: 1s;
+}
+
+h2 {
+    font-size: 22px;
+    color: #0b1b4e;
+    text-decoration: underline;
+}
+
+li::marker {
+    color: #0b1b4e;
+}
+
+h3 {
+    font-size: 25px;
+    color: #0b1b4e;
+}
+
+.footer {
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(16, 38, 112) 0%, rgba(255,255,255,0) 100%);
+    color: rgb(168, 168, 168);
+    text-align: center;
+    margin-top: 20px;
+    padding: 40px;
+}
+
+h4 {
+    color: rgb(227, 227, 227);
+    font-size: 17px;
+    text-align: center;
+}

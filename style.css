@@ -19,6 +19,7 @@ body {
     border-radius: 30px;
     /* background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); */
     margin-top: 25px;
+    margin-bottom: 25px;
     padding: 20px;
 }
 
@@ -64,17 +65,43 @@ h3 {
     color: #0b1b4e;
 }
 
-.footer {
+/* .footer {
     background: rgb(255,255,255);
     background: linear-gradient(0deg, rgba(16, 38, 112) 0%, rgba(255,255,255,0) 100%);
     color: rgb(168, 168, 168);
     text-align: center;
     margin-top: 20px;
     padding: 40px;
-}
+} */
 
 h4 {
     color: rgb(227, 227, 227);
     font-size: 17px;
     text-align: center;
+}
+
+.logoSize {
+    width: 20%;
+    display: inline;
+}
+
+footer {
+    background-color: black;
+}
+
+.text-muted {
+    text-decoration: none;
+}
+
+@media (min-width: 992px) {
+    .container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+@media (max-width:950px) {
+    .header-img {
+        max-width: 90%;
+    }
 }

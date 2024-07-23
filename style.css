@@ -105,3 +105,46 @@ footer {
         max-width: 90%;
     }
 }
+
+.dropdown-menu li {
+    position: relative;
+}
+
+.dropdown-menu .dropdown-submenu-1, .dropdown-submenu-2, .dropdown-submenu-3, .dropdown-submenu-4 {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: -7px;
+}
+
+.dropdown-menu > li:hover > .dropdown-submenu-1 {
+    display: block;
+    left: 0;
+    right: auto;
+    margin-left: -310px;
+    text-align: right;
+}
+
+.dropdown-menu > li:hover > .dropdown-submenu-2 {
+    display: block;
+    left: 0;
+    right: auto;
+    margin-left: -300px;
+    text-align: right;
+}
+
+.dropdown-menu > li:hover > .dropdown-submenu-3 {
+    display: block;
+    left: 0;
+    right: auto;
+    margin-left: -290px;
+    text-align: right;
+}
+
+.dropdown-menu > li:hover > .dropdown-submenu-4 {
+    display: block;
+    left: 0;
+    right: auto;
+    margin-left: -235px;
+    text-align: right;
+}

@@ -156,3 +156,13 @@ footer {
 .link:hover {
     color: rgb(98, 32, 159);
 }
+
+.card {
+    max-width: 400px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.smallLi {
+    font-size: 12px;
+}

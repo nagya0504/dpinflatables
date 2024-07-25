@@ -148,3 +148,11 @@ footer {
     margin-left: -235px;
     text-align: right;
 }
+
+.link {
+    color: blueviolet;
+}
+
+.link:hover {
+    color: rgb(98, 32, 159);
+}

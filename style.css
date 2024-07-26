@@ -121,7 +121,7 @@ footer {
     display: block;
     left: 0;
     right: auto;
-    margin-left: -310px;
+    margin-left: -265px;
     text-align: right;
 }
 
@@ -187,4 +187,8 @@ h4 {
 
 .bigImg {
     width: 300px;
+}
+
+th{
+    color: #0b1b4e;
 }

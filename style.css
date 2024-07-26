@@ -166,3 +166,21 @@ footer {
 .smallLi {
     font-size: 12px;
 }
+
+.nav-link {
+    color: rgb(98, 32, 159);
+}
+
+.nav-link:hover {
+    color: #0b1b4e;
+}
+
+h4 {
+    color: #0b1b4e;
+    text-align: start;
+    text-decoration: underline;
+}
+
+.nav-tabs {
+    margin-top: 20px;
+}

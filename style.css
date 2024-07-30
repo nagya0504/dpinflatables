@@ -17,7 +17,6 @@ body {
 .main-content {
     background: rgb(255,255,255,0.75);
     border-radius: 30px;
-    /* background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); */
     margin-top: 25px;
     margin-bottom: 25px;
     padding: 20px;
@@ -64,15 +63,6 @@ h3 {
     font-size: 25px;
     color: #0b1b4e;
 }
-
-/* .footer {
-    background: rgb(255,255,255);
-    background: linear-gradient(0deg, rgba(16, 38, 112) 0%, rgba(255,255,255,0) 100%);
-    color: rgb(168, 168, 168);
-    text-align: center;
-    margin-top: 20px;
-    padding: 40px;
-} */
 
 h4 {
     color: rgb(227, 227, 227);
@@ -191,4 +181,12 @@ h4 {
 
 th{
     color: #0b1b4e;
+}
+
+.ciArch {
+    max-height: 330px;
+}
+
+.archImg {
+    height: 160px;
 }
